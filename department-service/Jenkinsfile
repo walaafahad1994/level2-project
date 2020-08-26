@@ -35,7 +35,7 @@ spec:
     CREDS = credentials('walaa_docker_creds')
     DOCKER_NAMESPACE = 'walaafahad'
     SERVICE_NAME = 'department-service'
-    TOKEN=credentials('616b80e6-4d62-46aa-9759-4e3ac37024e2')
+    TOKEN=credentials('6492e759-bef3-413d-9ed9-916a0576fbc2')
   }
   stages {
       stage("Build") {
@@ -63,9 +63,8 @@ spec:
               container('kubectl') {
                   sh '''
                       cd $SERVICE_NAME
-                      kubectl --token=$TOKEN -n test get all
                       kubectl --token=$TOKEN -n test apply -f deploy.yaml -f service.yaml
-                      kubectl --token=$TOKEN -n test get all
+                      
 '''
               }
           }
