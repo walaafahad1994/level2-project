@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: department-service
-        image: walaa/department-service
+        image: walaafahad/department-service
         ports:
         - containerPort: 80
