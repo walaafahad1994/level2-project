@@ -10,7 +10,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: persob-service
+      app: person-service
   template:
     metadata:
       labels:
