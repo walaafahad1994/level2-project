@@ -35,7 +35,7 @@ spec:
     CREDS = credentials('walaa_docker_creds')
     DOCKER_NAMESPACE = 'walaafahad'
     SERVICE_NAME = 'role-service'
-    TOKEN=credentials('6a64354d-629b-4bd7-830f-3cb166582e3a')
+    TOKEN=credentials('b0ed0424-d47b-4886-b996-2241d23d0cd1')
   }
   stages {
       stage("Build") {

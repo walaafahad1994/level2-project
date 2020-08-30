@@ -2,8 +2,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: department-service
+  namespace: test
   labels:
-    app: department-service
+    app: department
     type: api
 spec:
   replicas: 1
