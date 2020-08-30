@@ -35,7 +35,7 @@ spec:
     CREDS = credentials('walaa_docker_creds')
     DOCKER_NAMESPACE = 'walaafahad'
     SERVICE_NAME = 'office-service'
-    TOKEN=credentials('b0ed0424-d47b-4886-b996-2241d23d0cd1')
+    TOKEN=credentials('b27e9233-30a8-4a35-bdb4-ae63c5d20c75')
   }
   stages {
       stage("Build") {
