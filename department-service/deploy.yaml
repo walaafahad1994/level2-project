@@ -4,7 +4,7 @@ metadata:
   name: department-service
   namespace: test
   labels:
-    app: department
+    app: department-service
     type: api
 spec:
   replicas: 1
